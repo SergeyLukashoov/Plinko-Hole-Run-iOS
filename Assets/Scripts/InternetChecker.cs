@@ -32,7 +32,7 @@ public class InternetChecker : MonoBehaviour
     {
         // Сначала скрываем оба UI
         CloseAll();
-        
+        loadingScreen.SetActive(true);
         // Запускаем проверку интернета
         StartCoroutine(CheckInternetConnection());
     }
@@ -57,10 +57,12 @@ public class InternetChecker : MonoBehaviour
     {
         if (hasInternet)
         {
+            loadingScreen.SetActive(false);
             gameplayUI.SetActive(true);
         }
         else
         {
+            loadingScreen.SetActive(false);
             noInternetUI.SetActive(true);
         }
     }
@@ -159,7 +161,7 @@ public class InternetChecker : MonoBehaviour
 
     public void RunLevel()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()
