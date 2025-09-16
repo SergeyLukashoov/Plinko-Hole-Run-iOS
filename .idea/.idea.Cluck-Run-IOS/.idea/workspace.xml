@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b556f11-9868-438b-9188-c9da532301a1" name="Changes" comment="" />
+    <list default="true" id="6b556f11-9868-438b-9188-c9da532301a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Instant Screenshot/ScreenshotManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Instant Screenshot/ScreenshotManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +92,7 @@
       <updated>1757587142379</updated>
       <workItem from="1757587144107" duration="6000" />
       <workItem from="1757587302731" duration="3000" />
+      <workItem from="1758028418302" duration="39000" />
     </task>
     <servers />
   </component>
@@ -101,6 +105,7 @@
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

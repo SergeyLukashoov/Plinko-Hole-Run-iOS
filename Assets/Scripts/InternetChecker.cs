@@ -161,7 +161,7 @@ public class InternetChecker : MonoBehaviour
 
     public void RunLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void ExitGame()

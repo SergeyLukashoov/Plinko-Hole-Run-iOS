@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "520662531528",
+    "project_id": "plinkoholerun",
+    "storage_bucket": "plinkoholerun.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520662531528:ios:11f6f2d7b28b6b7b41d4fd",
+        "android_client_info": {
+          "package_name": "com.epiphonegames.plinkoholerun"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEFO5XnTgbsvwFQxJDnoPX5t6n0TPb7cQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
