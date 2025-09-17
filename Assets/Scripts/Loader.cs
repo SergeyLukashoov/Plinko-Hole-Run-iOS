@@ -38,6 +38,7 @@ public class Loader : MonoBehaviour, IAppsFlyerConversionData
     
     
     [SerializeField] private string devKey;
+    [SerializeField] private string appID;
     [SerializeField] private float maxAwaitTime = 10f;
     [SerializeField] [Tooltip("https://example.com")] private string analyticsURL = "";
 
@@ -337,7 +338,7 @@ public class Loader : MonoBehaviour, IAppsFlyerConversionData
     {
         var launchTimestamp = Time.time;
         var isFirstLaunch = string.IsNullOrEmpty(_conversionString);
-        AppsFlyer.initSDK(devKey, null, this);
+        AppsFlyer.initSDK(devKey, appID, this);
         AppsFlyer.startSDK();
         yield return new WaitWhile(() => string.IsNullOrEmpty(_conversionString) && Time.time - launchTimestamp < maxAwaitTime);
         _conversionDictionary = string.IsNullOrEmpty(_conversionString) ? new Dictionary<string, object>() : AppsFlyer.CallbackStringToDictionary(_conversionString);
