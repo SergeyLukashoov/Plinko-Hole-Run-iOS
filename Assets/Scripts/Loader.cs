@@ -368,6 +368,7 @@ public class Loader : MonoBehaviour, IAppsFlyerConversionData
     
     public void EnablePush(bool decision)
     {
+        Debug.Log("Button pressed: " + decision);
         _lastPushDecisionDateTime = DateTime.Now;
         _launchMode = decision ? LaunchMode.PromotionalPush : LaunchMode.Promotional;
         if (!_appHaveNotificationsPermission && _launchMode is LaunchMode.PromotionalPush)
