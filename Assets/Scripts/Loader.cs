@@ -263,6 +263,7 @@ public class Loader : MonoBehaviour, IAppsFlyerConversionData
         view.SetCalloutEnabled(true);
         view.SetBackButtonEnabled(true);
         view.SetAllowBackForwardNavigationGestures(true);
+        view.SetBouncesEnabled(true);
         view.SetAcceptThirdPartyCookies(true);
         
         view.OnShouldClose += webView => false;
